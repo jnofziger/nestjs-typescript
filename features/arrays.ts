@@ -10,7 +10,7 @@ const carsByMake = [
 
 //Why use types with arrays?
 //Help with inference when extracting values
-const car = carMakers[0];
+//const car = carMakers[0];
 const myCar = carMakers.pop();
 
 //Prevent incompatible values
@@ -25,5 +25,4 @@ carMakers.map((car: string): string => {
 const importantDates: (Date | string)[] = [new Date()];
 importantDates.push('2030-10-10');
 importantDates.push(new Date());
-
-
+importantDates.push('hey');
